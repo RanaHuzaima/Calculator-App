@@ -28,16 +28,19 @@ html,body{
 #ptop{
     display: flex;
     align-items: center;
-    justify-content: right;
     width: 100%;
-    background-color: red;
+    padding: 10px;
     height: 170px;
     font-size: 50px;
     font-weight: 600;
+    border: 3px white;
+    border-bottom-style: solid;
 }
 #screen{
-
-}
+    width: 100%;
+    /* border: 1px solid; */
+    text-align: end;
+} 
 #pbtm{
     width: 100%;
     height: calc(100% - 170px);
