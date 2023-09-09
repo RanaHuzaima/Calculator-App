@@ -1,7 +1,9 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,800&display=swap);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 html,body{
     height: 100%;
@@ -16,8 +18,7 @@ html,body{
     justify-content: center;
 }
 #panel{
-    height: 71%;
-    width: 20%;
+    height: 70%;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
@@ -31,14 +32,14 @@ html,body{
     width: 100%;
     padding: 10px;
     height: 170px;
-    font-size: 50px;
+    font-size: 15px;
     font-weight: 600;
     border: 3px white;
     border-bottom-style: solid;
+    flex-direction: column;
 }
 #screen{
     width: 100%;
-    /* border: 1px solid; */
     text-align: end;
     padding: 30px 5px 30px 0px;
     border-radius: 6px;
@@ -47,10 +48,6 @@ html,body{
     border: 2px solid transparent;
     height: 36px;
     box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
-} 
-#screen:focus{
-    border: 2px solid #000;
-    border-radius: 4px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -90,4 +87,14 @@ button{
 #zero{
     padding: 30px 100px;
     margin-right: 10px;
+}
+#ac{
+    padding: 30px 67px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 600px){
+    #panel{
+        height: 81%;
+        margin: 30px;
+    }
 }
