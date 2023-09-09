@@ -40,7 +40,23 @@ html,body{
     width: 100%;
     /* border: 1px solid; */
     text-align: end;
+    padding: 30px 5px 30px 0px;
+    border-radius: 6px;
+    font-size: 40px;
+    background: #fbfbfb;
+    border: 2px solid transparent;
+    height: 36px;
+    box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
 } 
+#screen:focus{
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 #pbtm{
     width: 100%;
     height: calc(100% - 170px);
@@ -61,7 +77,7 @@ button{
     font-size: 30px;
     margin-right: 10px;
     background-color: white;
-    box-shadow: 0px 5px 5px;
+    box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
     cursor: pointer;
 }
 .row{
