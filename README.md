@@ -1,7 +1,10 @@
 # Calculator-App
 
-🚀 Just wrapped up a productive morning! From 9:30 AM to 12:30 PM, Today I made this #Calculator App By DOM and also Responsive Check-Out
-# Live Link: https://lnkd.in/deqe2JHc
+🚀 Just wrapped up a productive morning! From 9:30 AM to 12:30 PM, Today I made this **Calculator App By DOM** and also **Responsive Check-Out**
+
+# Live Link: 
+
+**https://lnkd.in/deqe2JHc**
 
 💡 I've learned so much about manipulating HTML and CSS elements dynamically, updating content in real time, and creating interactive web applications. The DOM truly is the backbone of modern web development!
 
